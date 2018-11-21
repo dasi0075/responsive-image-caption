@@ -21,7 +21,28 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-family: "Denk One", sans-serif;
+  font-size: 1.5rem;
+}
 
+h2 {
+  margin-left: .5rem;
+}
+
+p {
+  margin-left: .5rem;
+}
+
+.img-flex img {
+  width: 100%;
+  max-width: auto;
+}
+.content {
+  background-color: #e2e2e2;
+  padding-top: .3em;
+  padding-bottom: .2em;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -29,6 +50,11 @@ body {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  .content {
+    background-color: rgba\(0, 0, 0, .3\);
+    border-radius: 7px;
+
 
 }
 
