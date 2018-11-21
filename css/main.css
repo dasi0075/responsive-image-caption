@@ -34,10 +34,16 @@ p {
   margin-left: .5rem;
 }
 
-.img-flex img {
+img {
   width: 100%;
   max-width: auto;
 }
+
+.img-flex {
+  display: flex;
+  position: relative;
+}
+
 .content {
   background-color: #e2e2e2;
   padding-top: .3em;
@@ -51,11 +57,28 @@ p {
     line-height: 1.4;
   }
 
+  .img-flex {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  h2 {
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+  }
+
   .content {
-    background-color: rgba\(0, 0, 0, .3\);
+    background-color: rgba(0, 0, 0, .3);
     border-radius: 7px;
-
-
+    display: flex;
+    position: absolute;
+    max-width: 50%;
+    top: 120px;
+    left: 280px;
 }
 
 @media only screen and (min-width: 60em) {
