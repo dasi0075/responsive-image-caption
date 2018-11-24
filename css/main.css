@@ -99,13 +99,17 @@ p {
     font-size: 130%;
   }
 
-  .img-flex img {
+  .img-flex {
+    display: flex;
+    flex-wrap: wrap;
     width: auto;
     max-width: 100%;
   }
+
   .content {
-    top: 320px;
-    left: 480px;
+    top: 300px;
+    left: 720px;
+    max-width: 33.333%;
   }
 
 }
