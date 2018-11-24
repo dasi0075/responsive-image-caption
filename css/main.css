@@ -92,7 +92,7 @@ p {
   }
 
   .img-flex {
-    max-width: auto;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     position: relative;
