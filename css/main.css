@@ -35,8 +35,8 @@ p {
 }
 
 img {
-  width: 100%;
-  max-width: auto;
+  width: auto;
+  max-width: 100%;
 }
 
 .img-flex {
