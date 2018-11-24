@@ -85,6 +85,11 @@ p {
     line-height: 1.5;
   }
 
+  .content {
+    max-width: 45%;
+    top: 320px;
+    left: 480px;
+
 }
 
 @media only screen and (min-width: 90em) {
