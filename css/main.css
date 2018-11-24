@@ -94,20 +94,12 @@ p {
   .img-flex {
     width: 100%;
     max-width: auto;
-    display: flex
+    display: flex;
     flex-wrap: nowrap;
     position: relative;
   }
 
   .content {
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  html {
-    font-size: 130%;
   }
 
 }
