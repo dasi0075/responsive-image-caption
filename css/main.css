@@ -89,6 +89,7 @@ p {
     max-width: 45%;
     top: 320px;
     left: 480px;
+  }
 
 }
 
@@ -96,6 +97,15 @@ p {
 
   html {
     font-size: 130%;
+  }
+
+  .img-flex img {
+    width: auto;
+    max-width: 100%;
+  }
+  .content {
+    top: 320px;
+    left: 480px;
   }
 
 }
