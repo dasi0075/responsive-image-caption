@@ -100,8 +100,6 @@ p {
   }
 
   .img-flex {
-    display: flex;
-    flex-wrap: wrap;
     width: auto;
     max-width: 100%;
   }
