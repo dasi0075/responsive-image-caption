@@ -99,3 +99,19 @@ p {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  .content {
+    max-width: 33.333%;
+    top: 580px;
+    left: 920px;
+  }
+
+
+}
