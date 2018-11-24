@@ -86,9 +86,9 @@ p {
   }
 
   .content {
-    max-width: 45%;
-    top: 320px;
-    left: 480px;
+    max-width: 33.333%;
+    top: 380px;
+    left: 920px;
   }
 
   .img-flex {
@@ -99,17 +99,15 @@ p {
     position: relative;
   }
 
+  .content {
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
-  }
-
-  .content {
-    top: 300px;
-    left: 720px;
   }
 
 }
