@@ -91,6 +91,14 @@ p {
     left: 480px;
   }
 
+  .img-flex {
+    width: 100%;
+    max-width: auto;
+    display: flex
+    flex-wrap: nowrap;
+    position: relative;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -99,15 +107,9 @@ p {
     font-size: 130%;
   }
 
-  .img-flex {
-    width: auto;
-    max-width: 100%;
-  }
-
   .content {
     top: 300px;
     left: 720px;
-    max-width: 33.333%;
   }
 
 }
