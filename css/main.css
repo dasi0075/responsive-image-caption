@@ -34,12 +34,9 @@ p {
   margin-left: .5rem;
 }
 
-img {
+.img-flex {
   width: auto;
   max-width: 100%;
-}
-
-.img-flex {
   display: flex;
   position: relative;
 }
