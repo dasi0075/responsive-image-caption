@@ -76,6 +76,8 @@ p {
     max-width: 50%;
     top: 120px;
     left: 280px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
